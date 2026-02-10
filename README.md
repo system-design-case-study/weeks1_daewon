@@ -28,11 +28,3 @@ Ensure Docker is running and spin up the required containers:
 docker-compose up -d
 ```
 *Note: Default credentials for PostgreSQL are `test/test`.*
-
-### 2. Implementation Flow
-Follow the structured [Project Initialization](./.agent/workflows/0-setup.md) workflow to start the backend implementation.
-
-## 📜 Rules & Standards
-- [**Tech Stack Detail**](./.agent/rules/01-tech-stack.md)
-- [**API Design Quality**](./.agent/rules/03-api-quality.md)
-- [**Validation Rules**](./.agent/rules/09-validation-rules.md)
