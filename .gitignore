@@ -1,0 +1,29 @@
+# Build and Dependency Management
+.gradle/
+build/
+target/
+bin/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+# Environment / Secrets
+.env
+*.local

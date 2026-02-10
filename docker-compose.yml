@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: lbs-postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: proximity_db
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+
+  redis:
+    image: redis:7-alpine
+    container_name: lbs-redis
+    ports:
+      - "6337:6379"
+    command: ["redis-server", "--appendonly", "yes"]
